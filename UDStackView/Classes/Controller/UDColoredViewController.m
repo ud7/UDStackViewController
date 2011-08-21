@@ -56,12 +56,22 @@
         UIImageView *triangleView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"triangle.png"]] autorelease];
         [triangleView setFrame:CGRectMake((logoView.frame.size.width -triangleView.frame.size.width) /2, 43, triangleView.frame.size.width, triangleView.frame.size.height)];
         [logoView addSubview:triangleView];
+        
+        // Some barButtons
+        UIBarButtonItem *barButtonItemL = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:nil action:nil];
+        [self.navigationItem setLeftBarButtonItem:barButtonItemL];
+        [barButtonItemL release];
+        
+        UIBarButtonItem *barButtonItemR = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:nil action:nil];
+        [self.navigationItem setRightBarButtonItem:barButtonItemR];
+        [barButtonItemR release];
+    }else{
+        // Some barButton
+        UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward target:nil action:nil];
+        [self.navigationItem setRightBarButtonItem:barButtonItem];
+        [barButtonItem release];
     }
     
-    // Some random barButton
-    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:self.navigationController.viewControllers.count +1 target:nil action:nil];
-    [self.navigationItem setRightBarButtonItem:barButtonItem];
-    [barButtonItem release];
 }
 
 
