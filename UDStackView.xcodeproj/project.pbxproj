@@ -34,6 +34,7 @@
 		F05B387E14018712004C2A46 /* UDStackNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDStackNavigationController.m; sourceTree = "<group>"; };
 		F05B387F14018712004C2A46 /* UDStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDStackViewController.h; sourceTree = "<group>"; };
 		F05B388014018712004C2A46 /* UDStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDStackViewController.m; sourceTree = "<group>"; };
+		F05FCDDA14018E16007FA8AD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		F0C1118E1400C1B9001F5A6E /* UDStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C111921400C1B9001F5A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0C111941400C1B9001F5A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +135,7 @@
 				F0C111C11400C4BA001F5A6E /* View */,
 				F0C111BF1400C4BA001F5A6E /* Image */,
 				F0C111C01400C4BA001F5A6E /* Info.plist */,
+				F05FCDDA14018E16007FA8AD /* README */,
 			);
 			name = Resources;
 			path = UDStackView/Resources;
