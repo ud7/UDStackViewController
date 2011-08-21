@@ -62,7 +62,7 @@
 
     // Leave only recent 3
     if( _viewControllersViewCache.count > 3 ){
-        [_viewControllersViewCache removeObjectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(3, _viewControllersViewCache.count -3)]];
+        [_viewControllersViewCache removeObjectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, _viewControllersViewCache.count -3)]];
     }
 }
 
