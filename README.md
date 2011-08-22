@@ -13,3 +13,7 @@ What's different on this branch from v0.1
 ----------
 There is v0.1 also - its implementation differs from this one. You should check both if you looking for something like this. 
 This version rewrite from scrach of v0.1. It uses single navigation controller you should use instead of UINavigationController.
+
+How To Use It
+-------------
+basically it's same UINavigationControler. Check attached project.
