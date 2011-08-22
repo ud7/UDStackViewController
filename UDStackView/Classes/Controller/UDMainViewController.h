@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UDStackViewController.h"
 #import "UDStackNavigationController.h"
 
 
-@interface UDMainViewController : UDStackViewController
+@interface UDMainViewController : UIViewController <UDStackNavigationControllerDelegate>
 
 - (IBAction)presentStackViewFromButton:(UIButton *)button;
 

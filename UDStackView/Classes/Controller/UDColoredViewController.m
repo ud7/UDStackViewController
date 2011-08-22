@@ -49,11 +49,14 @@
     
     // This only for testing purposes only
     // Using this 'if' only because im using same viewController over and over again
-    if( self.navigationController.viewControllers.count == 1 ){
+    if( self.navigationController.viewControllers.count == 2 ){
         UIImageView *logoView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ud7logo.png"]] autorelease];
+        [logoView setContentMode:UIViewContentModeScaleAspectFit];
+        [logoView setAutoresizingMask:(UIViewAutoresizingFlexibleHeight)];
         [self.navigationItem setTitleView:logoView];
         
         UIImageView *triangleView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"triangle.png"]] autorelease];
+        [triangleView setAutoresizingMask:UIViewAutoresizingFlexibleTopMargin];
         [triangleView setFrame:CGRectMake((logoView.frame.size.width -triangleView.frame.size.width) /2, 43, triangleView.frame.size.width, triangleView.frame.size.height)];
         [logoView addSubview:triangleView];
         

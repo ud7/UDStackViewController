@@ -13,11 +13,11 @@
 		F05B3872140174FA004C2A46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F05B3871140174FA004C2A46 /* Default.png */; };
 		F05B387614017A3B004C2A46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05B387514017A3B004C2A46 /* CoreGraphics.framework */; };
 		F05B388114018712004C2A46 /* UDStackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B387E14018712004C2A46 /* UDStackNavigationController.m */; };
-		F05B388214018712004C2A46 /* UDStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B388014018712004C2A46 /* UDStackViewController.m */; };
 		F0C111931400C1B9001F5A6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C111921400C1B9001F5A6E /* UIKit.framework */; };
 		F0C111951400C1B9001F5A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C111941400C1B9001F5A6E /* Foundation.framework */; };
 		F0C111C41400C4BA001F5A6E /* UDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C111BB1400C4BA001F5A6E /* UDAppDelegate.m */; };
 		F0C111C51400C4BA001F5A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C111BD1400C4BA001F5A6E /* main.m */; };
+		F0EE82651402593F003A1507 /* filler.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EE82641402593F003A1507 /* filler.png */; };
 		F0EE97041400CD1100E20CD9 /* UDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE97031400CD1100E20CD9 /* UDMainViewController.m */; };
 		F0EE97061400CD7F00E20CD9 /* UDMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EE97051400CD7F00E20CD9 /* UDMainView.xib */; };
 		F0EE97421400D07100E20CD9 /* UDColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE97411400D07100E20CD9 /* UDColoredViewController.m */; };
@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F043F443140218A100412D4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		F05B385C14016859004C2A46 /* ud7logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ud7logo.png; sourceTree = "<group>"; };
 		F05B385F14016CC1004C2A46 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		F05B3867140174A2004C2A46 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -32,9 +33,6 @@
 		F05B387514017A3B004C2A46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F05B387D14018712004C2A46 /* UDStackNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDStackNavigationController.h; sourceTree = "<group>"; };
 		F05B387E14018712004C2A46 /* UDStackNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDStackNavigationController.m; sourceTree = "<group>"; };
-		F05B387F14018712004C2A46 /* UDStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDStackViewController.h; sourceTree = "<group>"; };
-		F05B388014018712004C2A46 /* UDStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDStackViewController.m; sourceTree = "<group>"; };
-		F05FCDDA14018E16007FA8AD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		F0C1118E1400C1B9001F5A6E /* UDStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C111921400C1B9001F5A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0C111941400C1B9001F5A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +41,7 @@
 		F0C111BD1400C4BA001F5A6E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UDStackView/main.m; sourceTree = "<group>"; };
 		F0C111C01400C4BA001F5A6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C111C31400C4BA001F5A6E /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = UDStackView/Prefix.pch; sourceTree = "<group>"; };
+		F0EE82641402593F003A1507 /* filler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filler.png; sourceTree = "<group>"; };
 		F0EE97021400CD1100E20CD9 /* UDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDMainViewController.h; sourceTree = "<group>"; };
 		F0EE97031400CD1100E20CD9 /* UDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDMainViewController.m; sourceTree = "<group>"; };
 		F0EE97051400CD7F00E20CD9 /* UDMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UDMainView.xib; sourceTree = "<group>"; };
@@ -70,8 +69,6 @@
 			children = (
 				F05B387D14018712004C2A46 /* UDStackNavigationController.h */,
 				F05B387E14018712004C2A46 /* UDStackNavigationController.m */,
-				F05B387F14018712004C2A46 /* UDStackViewController.h */,
-				F05B388014018712004C2A46 /* UDStackViewController.m */,
 			);
 			path = UDStackViewController;
 			sourceTree = "<group>";
@@ -135,7 +132,7 @@
 				F0C111C11400C4BA001F5A6E /* View */,
 				F0C111BF1400C4BA001F5A6E /* Image */,
 				F0C111C01400C4BA001F5A6E /* Info.plist */,
-				F05FCDDA14018E16007FA8AD /* README */,
+				F043F443140218A100412D4A /* README.md */,
 			);
 			name = Resources;
 			path = UDStackView/Resources;
@@ -148,6 +145,7 @@
 				F05B3871140174FA004C2A46 /* Default.png */,
 				F05B385C14016859004C2A46 /* ud7logo.png */,
 				F05B385F14016CC1004C2A46 /* triangle.png */,
+				F0EE82641402593F003A1507 /* filler.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -251,6 +249,7 @@
 				F05B386014016CC1004C2A46 /* triangle.png in Resources */,
 				F05B3868140174A2004C2A46 /* Icon.png in Resources */,
 				F05B3872140174FA004C2A46 /* Default.png in Resources */,
+				F0EE82651402593F003A1507 /* filler.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +265,6 @@
 				F0EE97041400CD1100E20CD9 /* UDMainViewController.m in Sources */,
 				F0EE97421400D07100E20CD9 /* UDColoredViewController.m in Sources */,
 				F05B388114018712004C2A46 /* UDStackNavigationController.m in Sources */,
-				F05B388214018712004C2A46 /* UDStackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

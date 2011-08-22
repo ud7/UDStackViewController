@@ -8,6 +8,7 @@
 
 #import "UDAppDelegate.h"
 #import "UDMainViewController.h"
+#import "UDStackNavigationController.h"
 
 
 @implementation UDAppDelegate {
@@ -23,9 +24,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UDMainViewController *mainViewController = [[[UDMainViewController alloc] init] autorelease];
-
+    UDStackNavigationController *stackNavigationController = [[[UDStackNavigationController alloc] initWithRootViewController:mainViewController] autorelease];
+    [stackNavigationController setDelegate:mainViewController];
+    
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [_window setRootViewController:mainViewController];
+    [_window setRootViewController:stackNavigationController];
     [_window makeKeyAndVisible];
 
     return YES;

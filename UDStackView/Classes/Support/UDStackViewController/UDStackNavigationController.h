@@ -10,10 +10,17 @@
 
 @interface UDStackNavigationController : UINavigationController
 
-@property (nonatomic, readonly) NSString *reuseIdentifier;
-@property (nonatomic, readonly) NSArray  *viewControllersViewCache;
-@property (nonatomic, readonly) UIImage  *topViewCache;
+- (void)presentViewController:(UIViewController *)viewController animated:(BOOL)animated fromRect:(CGRect)fromRect withStackIdentifier:(NSString *)stackIdentifier;
+- (BOOL)presentStackWithIdentifier:(NSString *)stackIdentifier animated:(BOOL)animated fromRect:(CGRect)fromRect;
+- (NSArray *)viewCacheForStackWithIdentifier:(NSString *)stackIdentifier;
+   
+@end
 
-- (id)initWithRootViewController:(UIViewController *)rootViewController reuseIdentifier:(NSString *)reuseIdentifier;
+
+@protocol UDStackNavigationControllerDelegate <UINavigationControllerDelegate>
+@optional
+
+- (UIImage *)stackNavigationController:(UDStackNavigationController *)stackNavigationController presentationImageForStackWithIdentifier:(NSString *)stackIdentifier;
+- (void)stackNavigationController:(UDStackNavigationController *)stackNavigationController willDismissViewController:(UIViewController *)viewController animated:(BOOL)animated;
 
 @end
