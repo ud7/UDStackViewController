@@ -58,8 +58,10 @@
     [super didReceiveMemoryWarning];
     
     // Leave only recent 3
-    if( self.activeStackViewCache.count > 3 ){
-        [self.activeStackViewCache removeObjectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.activeStackViewCache.count -3)]];
+    for ( NSMutableArray *stackViewCache in [_stacksViewCache allValues] ) {
+        if( stackViewCache.count > 3 ){
+            [stackViewCache removeObjectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, stackViewCache.count -3)]];
+        }
     }
 }
 
