@@ -1,7 +1,7 @@
 UDStackViewController
 =========
 
-UDStackViewController similar to what LinkedIn app uses...
+UDStackViewController similar to what @linkedin app uses for it's main view...
 check out how it works @ http://www.youtube.com/watch?v=yHbUXie7a34
 
 Requirements
